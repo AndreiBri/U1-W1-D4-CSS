@@ -18,7 +18,7 @@
   <body>
     <header>
       <div>
-        <img src="assets/img/logo.svg" alt="logo del blog" width="250" height="60" />
+        <img src="assets/img/logo.svg" alt="logo del blog" width="250" height="60" id="logoimg" />
         <p>Epicode - Il blog dei developers</p>
       </div>
       <nav>
@@ -121,8 +121,7 @@
           <h2>Novità</h2>
           <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
           <form>
-            <input type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required />
-            <button type="submit">Iscriviti!</button>
+            <input type="email" name="user_email" id="user_email" placeholder="inserisci l'email" required /><button id="btn1" type="submit">Iscriviti!</button>
           </form>
         </section>
       </article>
@@ -130,30 +129,30 @@
       <section>
         <h2>ARTICOLI CORRELATI</h2>
         <div class="secondsection">
-          <a href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice HTML</a>
-          <p>Categoria: develop</p>
+          <a class="aArtCorr" href="post2.html" title="Passaggi guidati per validare correttamente tutto il codice sviluppato">Validare il codice HTML</a>
+          <p class="correlated1"><i class="fas fa-tag"></i>Categoria: develop</p>
           <p class="correlated2"><i class="fas fa-calendar-alt"></i>Data: 18-9-2020</p>
         </div>
 
         <div class="secondsection">
-          <a href="post3.html" title="Passaggi guidati per controllare e correggere tutto il codice sviluppato">Correggere la sintassi</a>
-          <p>Categoria: develop</p>
+          <a class="aArtCorr" href="post3.html" title="Passaggi guidati per controllare e correggere tutto il codice sviluppato">Correggere la sintassi</a>
+          <p class="correlated1"><i class="fas fa-tag"></i>Categoria: develop</p>
           <p class="correlated2"><i class="fas fa-calendar-alt"></i>Data: 16-9-2020</p>
         </div>
 
         <div class="secondsection">
-          <a href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella pagina</a>
-          <p>Categoria: ottimizzazione</p>
+          <a class="aArtCorr" href="post4.html" title="Consigli ed approcci per ridurre il peso della pagina">Meno Kb nella pagina</a>
+          <p class="correlated1"><i class="fas fa-tag"></i>Categoria: ottimizzazione</p>
           <p class="correlated2"><i class="fas fa-calendar-alt"></i>Data: 30-9-2020</p>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>Blog Epicode &copy;2023</p>
-      <address>
+      <p class="Pfooter">Blog Epicode &copy;2021</p>
+      <address class="Pfooter Sfooter">
         Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
-        <a href="mailto:info@epicode.school" title="contattami per informazioni/lavoro/privacy">info@epicode.school</a>
+        <a class="Footera" href="mailto:info@epicode.school" title="contattami per informazioni/lavoro/privacy">info@epicode.school</a>
       </address>
     </footer>
   </body>

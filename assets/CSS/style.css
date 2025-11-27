@@ -6,7 +6,7 @@
 }
 
 body {
-  margin: 8px;
+  margin: 3rem;
   background-image: url(../img/sfondo.png);
 }
 
@@ -23,12 +23,17 @@ header {
   margin-bottom: 1rem;
 }
 
+header nav ul {
+  list-style: none;
+}
+
 header a {
   color: white; /* This specifically targets anchor tags within the header */
 }
 
 main {
   background-color: rgb(255, 255, 255);
+  text-align: left;
 }
 
 .divider {
@@ -45,30 +50,40 @@ article {
 section {
   max-width: 800px;
   margin: auto;
+  margin-bottom: 1rem;
   padding: 1.5rem; /* QUESTO crea i bordi bianchi */
 }
 
+#logoimg {
+  margin-bottom: 1rem;
+}
+
 h1 {
-  font-size: clamp(3rem, 4vw, 3rem);
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.15;
   margin-bottom: 1.2rem;
 }
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-style: uppercase;
   text-align: center;
   margin-bottom: 2rem;
 }
 
+caption {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 p#ownerarticle {
   color: rgba(88, 97, 105, 0.582);
-  font-size: 1.7rem;
+  font-size: 0.93rem;
   margin-bottom: 1.2rem;
 }
 
 p {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   margin-bottom: 1.2rem;
 }
 
@@ -89,19 +104,20 @@ ol {
   margin: 1rem 0;
   padding-left: 2.5rem;
   padding-right: 2.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 li {
   margin-bottom: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 code {
   background-color: rgb(222, 222, 223);
-  border-radius: 4px;
-  border: 1px solid #bcbcbc;
+  border-radius: 8px;
+  border: 2px solid #bcbcbc;
   text-align: center;
+  display: inline-block;
 }
 
 table {
@@ -135,6 +151,12 @@ iframe {
   margin-bottom: 2rem;
 }
 
+#btn1 {
+  background-color: rgb(53, 109, 190);
+  color: white;
+  margin-left: 1px;
+}
+
 .newsletter {
   text-align: center;
   background-color: rgb(233, 226, 228);
@@ -148,6 +170,34 @@ iframe {
 }
 
 p.correlated2 {
-  text-align: left;
+  text-align: right;
   font-size: 1rem;
+}
+
+.correlated1 {
+  font-size: 1rem;
+}
+
+.aArtCorr {
+  font-size: 1.15rem;
+  color: rgb(43, 174, 207);
+}
+
+footer {
+  background: #050024;
+  background: linear-gradient(359deg, rgba(5, 0, 36, 1) 0%, rgba(0, 85, 102, 1) 50%);
+  margin-bottom: 5rem;
+}
+
+.Pfooter {
+  text-align: center;
+  color: white;
+}
+
+.Sfooter {
+  padding-bottom: 2rem;
+}
+
+.Footera {
+  color: rgb(251, 9, 233);
 }
